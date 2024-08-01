@@ -293,8 +293,7 @@ jobs:
     name: "Build Armbian"
     runs-on: ubuntu-latest
     steps:
-
-      - uses: zrj004/build@compile
+      - uses: zrj004/build@main
         with:
           armbian_token:              "${{secrets.GITHUB_TOKEN}}"
           armbian_target:             "${{inputs.armbian_target}}"
