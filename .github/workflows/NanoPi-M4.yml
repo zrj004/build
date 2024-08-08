@@ -58,6 +58,8 @@ on:
         - nanopineo2
         - xiaobao-nas
         default: 'nanopim4'
+  schedule:
+      - cron: 0 8 */5 * *
 jobs:
 
   build:
